@@ -1,0 +1,17 @@
+---
+layout: post
+title: What am I doing this for?
+tags: [random]
+author_name: John
+author_uri: http://twitter.com/johnduff
+---
+
+<p>I just got started with blogging so I thought it would be a good idea to let everyone know why I'm doing this and what I'm hoping to get out of blogging.<br /><strong><br />The Why</strong></p>
+
+<p>The past couple of years I have been thinking a lot about online presence and building up a brand for yourself.&nbsp; As a software developer this becomes very important, it provides me a place to highlight some of my skills and knowledge.&nbsp; Along with this it provides me with another avenue to build relationships and interact with the tech community.&nbsp; Hopefully you'll be coming here to read tips and tricks with using Ruby, how to get around CSS quirks or my ideas and thoughts on where the tech industry is going.</p>
+
+<p><strong>What I want to get</strong></p>
+
+<p>Who knows what I'm actually going to get out of this, but what I'm hoping this blog will help me&nbsp; build relationships with like minded people.&nbsp; I'm also looking for critical criticism on my posts; better solutions for any code I might post, reasons why my ideas or opinions don't make sense, stuff like that.&nbsp; Basically I welcome any and all comments you might have, good or bad.</p>
+
+<p>Hopefully we can all get something out of this blog; I hope to contribute to the community a little, possibly something you find interesting and I'm really looking forward to interacting with everyone out there.</p>

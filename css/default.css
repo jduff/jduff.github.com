@@ -19,7 +19,7 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 }
 
 #banner {
-	margin:30px 0px;
+	margin:20px 0px;
 	border-bottom:2px solid #ccc;
 }
 
@@ -45,18 +45,44 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 #content, #top, #bottom {
 	text-align:left;
 	margin:auto;
-	width:900px;
+	width:1000px;
 }
 
 #main {
     float:left;
-    width: 65%;
+    width: 70%;
+}
+
+#post, .excerpt {
+	line-height:20px;
+}
+
+.paging {
+	margin: 20px 0px;
+}
+
+.paging .newer {
+	float:right;
+}
+
+.paging .older {
+	float:left;
+}
+
+.clear {
+	clear:both;
+	height:0px;
+	line-height:0px;
+}
+
+#comments {
+	padding-top:10px;
 }
 
 #sidebar {
     font-size: 0.9em;
     float:right;
-    width: 30%;
+    width: 25%;
 }
 
 #sidebar ul {

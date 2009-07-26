@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hello World
+title: Hello Github Pages
 tags: [meta]
 author_name: John
 author_uri: http://twitter.com/johnduff
 ---
 
-Welcome to the new home of my blog.  This is hosted with Github Pages which uses Jekyll to generate a static html site for you. I've got a couple of my older posts moved over in the archives, hopefully I'll get a new post up soon. 
+Welcome to the new home of my blog.  This is hosted with Github Pages which uses Jekyll to generate a static html site for you. I've got a couple of my older posts moved over in the archives, I'm sorry I couldn't get the comments moved over though. Hopefully I'll get a newer post up soon.
