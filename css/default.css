@@ -113,6 +113,6 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 
 #bottom {
 	border-top:2px solid #CCCCCC;
-	margin-top:10px;
+	margin:10px auto;
 	padding-top:5px;
 }
