@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div id="post">
+    <h2>{{page.title}}</h2>
+{{ content }}
+</div>
+
+<small class="meta">{{ page.date | date:"%B %d, %Y" }} {% for t in page.tags %}
+  {% if forloop.first == true %} | {% endif %}
+  <a href='/tags.html#{{ t | escape }}'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
+  {% endfor %} </small>
+
+<div id="comments">
+    <h3>Comments</h3>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript" src="http://disqus.com/forums/johnduff/embed.js"></script>
+    <noscript><a href="http://johnduff.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>

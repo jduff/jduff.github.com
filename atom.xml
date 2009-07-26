@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>jduff's Blog</title>
+    <link href="http://jduff.github.com/atom.xml" rel="self"/>
+    <link href="http://jduff.github.com/"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://jduff.github.com/</id>
+    
+    {% for post in site.posts %}
+    <entry>
+        <title>{{ post.title }}</title>
+        {% for category in post.categories %}
+        <category term="{{category}}" scheme="http://www.sixapart.com/ns/types#tag" />
+        {% endfor %}
+        <link href="http://jduff.github.com{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>jduff.github.com:{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+        <author>
+            <name>{{post.author_name}}</name>
+            <uri>{{post.author_uri}}</uri>
+        </author>
+    </entry>
+    {% endfor %}
+</feed>
