@@ -17,13 +17,13 @@ title: blog, ideas, photos, everything
 
 <div class='paging'>
   {% if paginator.next_page %}
-    <a href='/Page{{paginator.next_page}}' class='older'>Older Posts</a>
+    <a href='/page{{paginator.next_page}}' class='older'>Older Posts</a>
   {% endif %}
 {% if paginator.previous_page %}
   {% if paginator.previous_page == 1 %}
     <a href='/' class='newer'>Newer Posts</a>
   {% else %}
-    <a href='/Page{{paginator.previous_page}}' class='newer'>Newer Posts</a>
+    <a href='/page{{paginator.previous_page}}' class='newer'>Newer Posts</a>
   {% endif %}
 {% endif %}
   
