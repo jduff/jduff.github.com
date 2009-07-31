@@ -25,6 +25,7 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 
 #banner h1, #banner h3{
 	margin: 10px 0px 0px 0px;
+	float:left;
 }
 
 #banner h3 {
@@ -40,6 +41,10 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 
 #banner h1 a:hover {
 	text-decoration:underline;
+}
+
+#banner form {
+	float:right;
 }
 
 #content, #top, #bottom {
