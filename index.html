@@ -11,7 +11,7 @@ title: blog, ideas, photos, everything
     <small class="meta">{{ post.date | date:"%B %d, %Y" }} | <a href='{{ post.url }}#disqus_thread'>View Comments</a> 
       {% for t in post.tags %}
         {% if forloop.first == true %} | {% endif %}
-        <a href='/tags.html#{{ t | escape }}'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
+        <a href='/tags#{{ t | escape }}'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
       {% endfor %} </small>
 {% endfor %}
 
