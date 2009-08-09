@@ -18,6 +18,10 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 	color: #000;
 }
 
+img {
+	border:none;
+}
+
 #banner {
 	margin:20px 0px;
 	border-bottom:2px solid #ccc;
@@ -120,4 +124,11 @@ h1, h2, h3, h1 a, h2 a, h3 a, a.read-more {
 	border-top:2px solid #CCCCCC;
 	margin:10px auto;
 	padding-top:5px;
+}
+
+.thumbnails img, img.thumbnails {
+	max-width:100px;
+	max-width:100px;
+	padding:5px;
+	float:left;
 }
