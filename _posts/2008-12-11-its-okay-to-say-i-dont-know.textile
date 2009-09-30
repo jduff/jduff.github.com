@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's Okay to Say "I Don't Know"
-tags: [web,tech]
+tags: [web, tech]
 author_name: John
 author_uri: http://twitter.com/johnduff
 ---
