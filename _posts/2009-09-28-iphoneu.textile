@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iPhoneU
+title: Lunch and Learn, iPhoneU
 tags: [iphone, objective-c, programming]
 author_name: John
 author_uri: http://twitter.com/johnduff
