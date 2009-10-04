@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making Input Fields Suck Less
-tags: [web,tech]
+tags: [web, tech]
 author_name: John
 author_uri: http://twitter.com/johnduff
 ---
