@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EC2 Makes Getting a Startup Going Suck Less
-tags: [web,tech]
+tags: [web, tech]
 author_name: John
 author_uri: http://twitter.com/johnduff
 ---
