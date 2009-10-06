@@ -9,15 +9,14 @@
     <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
     <link href="http://feeds.feedburner.com/JohnDuffsBlog" type="application/atom+xml" rel="alternate" title="John Duff's blog" />
 </head>
-<body>
+<body class='{{ page.page_name }}'>
     <div id="top">
     </div>
     
     <div id="content">
     <div id="banner">
         <h1><a href="http://jduff.github.com">John Duff</a></h1>
-        <div class='clear'></div>
-        <h3>blog, ideas, photos, everything</h3>
+        <!-- <h3>blog, ideas, photos, everything</h3> -->
         
         <form action="http://jduff.github.com/search/" id="cse-search-box">
           <div>
@@ -29,7 +28,14 @@
           </div>
         </form>
         <div class='clear'></div>
-
+				<ul>
+					<li class='about'><a href='/about/'>About</a></li>
+					<li class='blog'><a href='/'>Blog</a></li>
+					<li class='archives'><a href='/tags/'>Archives</a></li>
+					<!-- <li class='resume'><a href='/resume/'>Resume</a></li> -->
+					<li style='float:right'><a href="http://feeds.feedburner.com/JohnDuffsBlog">RSS</a></li>
+					<li style='float:none;' class='clear'></li>
+				</ul>
         <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
 
     </div>
@@ -39,29 +45,41 @@
                 {{ content }}
             </div>
             <div id="sidebar">
-              <script type="text/javascript"><!--
+              <!--<script type="text/javascript"><!--
               google_ad_client = "pub-9891348073545685";
               /* jduff.github.com square 250 */
               google_ad_slot = "6433109702";
               google_ad_width = 250;
               google_ad_height = 250;
-              //-->
+              //-- 
               </script>
               <script type="text/javascript"
               src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
               </script>
+			  			-->
               <br />
+							<h3>Around the Web</h3>
+							<ul id="links">
+								  <li class="twitter"><a href="http://twitter.com/johnduff" rel="me" class="url">Twitter Feed</a></li>
+								  <li class="linkedin"><a href="http://www.linkedin.com/in/johnduff" rel="me" class="url">LinkedIn Profile</a></li>
+									<li class="reader"><a href="http://www.google.com/reader/shared/17682955537280407457" rel="me" class="url">Reader Feed</a></li>
+								  <li class="facebook"><a href="http://www.facebook.com/duff.john" rel="me" class="url">Facebook Profile</a></li>
+								  <li class="friendfeed"><a href="http://friendfeed.com/jduff" rel="me" class="url">FriendFeed Stream</a></li>
+							</ul>
+							
+							
               <div id="twitter_div">
                   
               <h3>Twitter Updates</h3>
               <ul id="twitter_update_list"></ul>
-              <a href="http://twitter.com/johnduff" id="twitter-link" style="display:block;text-align:right;">follow me on Twitter</a>
+              <!-- <a href="http://twitter.com/johnduff" id="twitter-link" style="display:block;text-align:right;">follow me on Twitter</a> -->
               </div>
+							<!--
               <div id="dsq-recentcomments" class="dsq-widget">
                 <h3 class="dsq-widget-title">Recent Comments</h3>
                 <script type="text/javascript" src="http://disqus.com/forums/johnduff/recent_comments_widget.js?num_items=5&avatar_size=32"></script>
               </div>
-              <a href="http://disqus.com">Powered by Disqus</a>
+              <a href="http://disqus.com">Powered by Disqus</a>-->
               
             </div>
         <div id="license">
@@ -72,10 +90,11 @@
 
 
     <div id="bottom">
-        <a href="http://jduff.github.com">Home</a> |
-        <a href="/archives/">Archives</a> |
-        <a href="http://feeds.feedburner.com/JohnDuffsBlog">RSS</a> |
-        <a href="/about/">About</a>
+	      <a href="/about/">About</a> |
+        <a href="http://jduff.github.com">Blog</a> |
+        <a href="/tags/">Archives</a> |
+				<a href="/resume/">Resume</a> |
+        <a href="http://feeds.feedburner.com/JohnDuffsBlog">RSS</a>
     </div>
     
     <!-- Google Analytics Code -->
