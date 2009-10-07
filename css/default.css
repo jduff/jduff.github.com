@@ -146,6 +146,9 @@ body.about #banner li.about a {
 	padding:4px 0 4px 28px;
 }
 
+#sidebar ul#links li.github {
+	background:transparent url(/images/github.png) no-repeat scroll 4px 2px;
+}
 #sidebar ul#links li.twitter {
 	background:transparent url(/images/twitter.png) no-repeat scroll 4px 2px;
 }
@@ -188,4 +191,25 @@ body.about #banner li.about a {
 	max-width:100px;
 	padding:5px;
 	float:left;
+}
+
+a.pdf {
+	padding:4px 0 4px 28px;
+	background:transparent url(/images/pdf.gif) no-repeat scroll 4px 2px;
+}
+
+#resume {
+	width:658px;
+}
+
+#resume p {
+	margin:0px;
+}
+
+#resume ul {
+	margin:0px;
+}
+
+#resume li p {
+	margin:0px;
 }
