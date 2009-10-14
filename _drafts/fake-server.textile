@@ -1,0 +1,8 @@
+---
+layout: post
+title: Fake Server
+tags: [programming, ruby, idea]
+author_name: John
+author_uri: http://twitter.com/johnduff
+---
+
