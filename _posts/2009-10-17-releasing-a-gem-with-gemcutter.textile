@@ -31,3 +31,12 @@ rake gemcutter:release
 That's it, now my tmdb_party gem is "up on Gemcutter":http://gemcutter.org/gems/tmdb_party. On a side note, if you're not using "Jeweler":http://github.com/technicalpickles/jeweler/ to manage and release your gems you really should, it makes releasing a gem incredibly simple.
 
 Now go put your gems up on "Gemcutter":http://gemcutter.org/!
+
+<i>update:
+"Jon":http://github.com/maddox just reminded me that if you don't want to add the Jeweler task it's still just one simple command to release your gem:
+
+{% highlight bash %}
+gem push pkg/tmdb_party_0.4.0.gem
+{% endhighlight %}
+
+Boom! Released! Thanks for the reminder Jon!</i>
