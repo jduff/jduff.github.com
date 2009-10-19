@@ -12,7 +12,7 @@ I find one of the most useful 'tricks' in Ruby is to use the '&' character to co
 words = %w(one two three)
 words.collect!{|word| word.upcase }
 puts words.inspect
-=> ["one", "two", "three"]
+=> ["ONE", "TWO", "THREE"]
 {% endhighlight %}
 
 
@@ -22,7 +22,7 @@ This is a pretty simple block of code, all we're doing is converting an array of
 words = %w(one two three)
 words.collect!(&:upcase)
 puts words.inspect
-=> ["one", "two", "three"]
+=> ["ONE", "TWO", "THREE"]
 {% endhighlight %}
 
 These two blocks do the exact same thing, but I find the second method to dramatically improve the readability even in this simple example.
