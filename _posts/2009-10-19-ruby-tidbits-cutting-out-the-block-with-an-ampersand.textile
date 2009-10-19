@@ -27,7 +27,7 @@ puts words.inspect
 
 These two blocks do the exact same thing, but I find the second method to dramatically improve the readability even in this simple example.
 
-So, what's really going on here? Well Ruby sees the '&' so it wants to convert the Proc to a block. Since we have a Symbol on the other side Ruby type converts it to a proc but calling to_proc on the Symbol which returns a Proc that takes one argument and calls the method named by the symbol on that object. The implementation of to_proc on the Symbol class might look something like this:
+So, what's really going on here? Well Ruby sees the '&' so it wants to convert the Proc to a block. Since we have a Symbol on the other side Ruby type converts it to a proc by calling to_proc on the Symbol which returns a Proc that takes one argument and calls the method named by the symbol on that object. The implementation of to_proc on the Symbol class might look something like this:
 
 {% highlight ruby %}
 def to_proc(arg)
