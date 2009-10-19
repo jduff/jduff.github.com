@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby Tidbits: Cutting out the Block with an &"
+title: "Ruby Tidbits: Cutting out the Block with an &proc"
 tags: [ruby tidbits, ruby, programming]
 author_name: John
 author_uri: http://twitter.com/johnduff
