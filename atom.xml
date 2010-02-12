@@ -11,14 +11,14 @@ layout: nil
     
     {% for post in site.posts %}
     <entry>
-        <title><![CDATA[{{ post.title }}]]></title>
+        <title>{{ post.title | h }}</title>
         {% for category in post.categories %}
         <category term="{{category}}" scheme="http://www.sixapart.com/ns/types#tag" />
         {% endfor %}
         <link href="http://jduff.github.com{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>jduff.github.com:{{ post.id }}</id>
-        <content type="html"><![CDATA[{{ post.content }}]]></content>
+        <content type="html">{{ post.content | h}}</content>
         <author>
             <name>{{post.author_name}}</name>
             <uri>{{post.author_uri}}</uri>
