@@ -130,6 +130,12 @@ body.about #banner li.about a {
   padding-top:15px;
 }
 
+/*HACK HACK HACK HACK*/
+
+.highlight + .highlight {
+  display:none;
+}
+
 .post, .excerpt {
 	line-height:20px;
 }

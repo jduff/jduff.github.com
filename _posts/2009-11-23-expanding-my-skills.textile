@@ -20,7 +20,6 @@ First thing we want to start with is giving our plugin access to jQuery. This so
 (function($) {
   // plugin code here
 })(jQuery);
-
 {% endhighlight %}
 
 This might look a little scary, but all we're doing is defining a function that takes a parameter. We're then calling the function right away passing in jQuery. Now we can use $ in our plugin without worry!
