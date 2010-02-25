@@ -10,6 +10,12 @@ body, a {
 	color:#333;
 }
 
+a {
+  color:#000;
+}
+
+
+
 a:hover {
 	text-decoration:none;
 }
@@ -103,7 +109,28 @@ body.about #banner li.about a {
     width: 70%;
 }
 
-#post, .excerpt {
+#page a {
+  color:#2244BB;
+}
+
+#page h2 a {
+  color:#000;
+}
+
+#index h2 {
+  margin-top:5px;
+}
+
+#index .post {
+  margin-bottom:20px;
+}
+
+#index .post + .post {
+  border-top:solid 1px #999;
+  padding-top:15px;
+}
+
+.post, .excerpt {
 	line-height:20px;
 }
 
@@ -186,6 +213,7 @@ body.about #banner li.about a {
 	border:1px solid #CCCCCC;
 	color:#666666;
 	padding:5px;
+	margin-top:16px;
 }
 
 #bottom {
