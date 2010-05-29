@@ -140,6 +140,8 @@ When the 'Cancel' button is pressed we want to clear the _UISearchBar_ text and 
 {% highlight objectivec %}
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     // You'll probably want to do this on another thread
+    // SomeService is just a dummy class representing some 
+    // api that you are using to do the search
     NSArray *results = [SomeService doSearch:searchBar.text];
 	
     [searchBar setShowsCancelButton:NO animated:YES];
@@ -257,6 +259,8 @@ If you've been following along you might notice a bit of a "code smell":http://e
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    // SomeService is just a dummy class representing some 
+    // api that you are using to do the search
     NSArray *results = [SomeService doSearch:searchBar.text];
 	
     [self searchBar:searchBar activate:NO];
@@ -403,6 +407,8 @@ SearchViewController.m
     // Deactivate the UISearchBar
 	
     // You'll probably want to do this on another thread
+    // SomeService is just a dummy class representing some 
+    // api that you are using to do the search
     NSArray *results = [SomeService doSearch:searchBar.text];
 	
     [self searchBar:searchBar activate:NO];
