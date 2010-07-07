@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learnings for Week 24 2010"
-tags: [programming, learnings, ruby, git, html5, jquery]
+tags: [programming, learnings, ruby, vim, rails3, irb]
 author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
