@@ -6,7 +6,7 @@ author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
 
-I'm a little lite on the learnings this week so you might also want to check out the "learnings from the rest of the Rubinauts":http://blog.rubinauts.com/?p=140. We're talking Mobile APIs, Rails 3 and content_for, trixbox and more in this one.
+I'm a little light on the learnings this week so you might also want to check out the "learnings from the rest of the Rubinauts":http://blog.rubinauts.com/?p=140. We're talking Mobile APIs, Rails 3 and content_for, trixbox and more in this one.
 
 * In Mail.app if you want to organize your mail messages in threads: View -> Organize by Thread
 
