@@ -11,6 +11,7 @@ I'm a little lite on the learnings this week so you might also want to check out
 * In Mail.app if you want to organize your mail messages in threads: View -> Organize by Thread
 
 * Removing a git submodule is a little trickier than adding one, found some detailed instructions <a href="http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/">here</a>. It boils down to the following:
+
 # Remove the submodule's entry in the .gitmodules file
 # Remove the submodule's entry in .git/config
 # Remove the path created for the submodule (do not put a trailing slash on the path){% highlight bash %}
