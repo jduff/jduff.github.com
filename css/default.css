@@ -201,9 +201,6 @@ body.about #banner li.about a {
 #sidebar ul#links li.linkedin {
 	background:transparent url(/images/linkedin.png) no-repeat scroll 4px 2px;
 }
-#sidebar ul#links li.friendfeed {
-	background:transparent url(/images/friendfeed.png) no-repeat scroll 4px 2px;
-}
 
 #license {
     clear:both;
