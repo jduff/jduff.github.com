@@ -1,2 +1,3 @@
 permalink: pretty
 paginate: 5
+lsi: true

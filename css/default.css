@@ -135,6 +135,10 @@ body.about #banner li.about a {
   padding-top:15px;
 }
 
+#related li {
+  list-style:none;
+}
+
 .post, .excerpt {
 	line-height:20px;
 }
