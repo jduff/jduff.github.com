@@ -12,11 +12,11 @@ Finally trying to catch up with the learnings. Also check out what the rest of t
 
 * SQL Authentication can be turned on for SQL Server through the Management Console under the Server Properties. More details can be found <a href='http://kbase.gfi.com/showarticle.asp?id=KBID002804'>here</a>.
 
-* Using the <a href='http://github.com/mmangino/facebooker2'>Facebooker2<a/> gem you must call 'fetch' on the Facebook user to get their user details.{% highlight ruby %}
+* Using the "Facebooker2":http://github.com/mmangino/facebooker2 gem you must call 'fetch' on the Facebook user to get their user details.{% highlight ruby %}
 current_facebook_user.fetch
 {% endhighlight %}
 
-* Posting to a users feed is really easy with  <a href='http://github.com/mmangino/facebooker2'>Facebooker2<a/>{% highlight ruby %}
+* Posting to a users feed is really easy with "Facebooker2":http://github.com/mmangino/facebooker2{% highlight ruby %}
 current_facebook_user.feed_create(Mogli::Post.new(:message=>message))
 {% endhighlight %}
 
