@@ -1,125 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>John Duff : {{ page.title }} </title>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="verify-v1" content="fI45uNHehVNiO9Dt0Fp7XnsV0Z/ozBTkPoS6RlYAe50=" />
-    <META name="y_key" content="6c948e75a617b12d" />
-    <meta name='technorati-claim' content='8QN7CWNH8BSJ' />
-    <link rel="stylesheet" type="text/css" href="/css/default.css" />
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
-    <link href="http://feeds.feedburner.com/JohnDuffsBlog" type="application/atom+xml" rel="alternate" title="John Duff's blog" />
+  <title>John Duff : {{ page.title }} </title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="verify-v1" content="fI45uNHehVNiO9Dt0Fp7XnsV0Z/ozBTkPoS6RlYAe50=" />
+  <meta name="y_key" content="6c948e75a617b12d" />
+  <meta name='technorati-claim' content='8QN7CWNH8BSJ' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" media="screen" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/default.css" />
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="John Duff's blog" />
 </head>
+
 <body class='{{ page.page_name }}'>
-    <div id="top">
-    </div>
-    
-    <div id="content">
-    <div id="banner">
-        <h1><a href="http://jduff.github.com">John Duff</a></h1>
-        <!-- <h3>blog, ideas, photos, everything</h3> -->
-        
-        <form action="http://jduff.github.com/search/" id="cse-search-box">
-          <div>
-            <input type="hidden" name="cx" value="partner-pub-9891348073545685:87fahy-qwta" />
-            <input type="hidden" name="cof" value="FORID:11" />
-            <input type="hidden" name="ie" value="ISO-8859-1" />
-            <input type="text" name="q" size="31" />
-            <input type="submit" name="sa" value="Search" />
-          </div>
-        </form>
-        <div class='clear'></div>
-				<ul>
-					<li class='about'><a href='/about/'>About</a></li>
-					<li class='blog'><a href='/'>Blog</a></li>
-					<li class='archives'><a href='/tags/'>Archives</a></li>
-					<li class='resume'><a href='/resume/'>Resume</a></li>
-					<li style='float:right'><a href="http://feeds.feedburner.com/JohnDuffsBlog">RSS</a></li>
-					<li style='float:none;' class='clear'></li>
-				</ul>
-        <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-
-    </div>
-    
-    <div id="page">
-            <div id="main">
-                {{ content }}
-            </div>
-            <div id="sidebar">
-              <br />
-							<h3>Around the Web</h3>
-							<ul id="links">
-									<li class="github"><a href="http://github.com/jduff" rel='me' class='url'>GitHub Profile</a></li>
-								  <li class="twitter"><a href="http://twitter.com/johnduff" rel="me" class="url">Twitter Feed</a></li>
-								  <li class="linkedin"><a href="http://www.linkedin.com/in/johnduff" rel="me" class="url">LinkedIn Profile</a></li>
-									<li class="reader"><a href="http://www.google.com/reader/shared/17682955537280407457" rel="me" class="url">Reader Feed</a></li>
-								  <li class="facebook"><a href="http://www.facebook.com/duff.john" rel="me" class="url">Facebook Profile</a></li>
-							</ul>
-							
-							
-              <div id="twitter_div">
-                  
-              <h3>Twitter Updates</h3>
-              <ul id="twitter_update_list"></ul>
-              <!-- <a href="http://twitter.com/johnduff" id="twitter-link" style="display:block;text-align:right;">follow me on Twitter</a> -->
-              </div>
-              <br />
-              <script type="text/javascript"><!--
-              google_ad_client = "pub-9891348073545685";
-              /* jduff.github.com square 250 */
-              google_ad_slot = "6433109702";
-              google_ad_width = 250;
-              google_ad_height = 250;
-              //-- 
-              </script>
-              <script type="text/javascript"
-              src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-              </script>
-              
-							<!--
-              <div id="dsq-recentcomments" class="dsq-widget">
-                <h3 class="dsq-widget-title">Recent Comments</h3>
-                <script type="text/javascript" src="http://disqus.com/forums/johnduff/recent_comments_widget.js?num_items=5&avatar_size=32"></script>
-              </div>
-              <a href="http://disqus.com">Powered by Disqus</a>-->
-              
-            </div>
-        <div id="license">
+  <div class="container">
+    <div class="row">
+      <div class="span3 sidebar affix">
+        <div class="well">
+          <h2 class='site-title'>
+            <a href="{{ site.production_url }}">JOHN DUFF</a>
+          </h2>
+          <ul>
+            <li class='about'><a href='/about/'>About</a></li>
+            <li class='archives'><a href='/archives/'>Archives</a></li>
+            <li><a href="/atom.xml">feed</a></li>
+          </ul>
+          <h3>Around the Web</h3>
+          <ul id="links">
+              <li class="github"><a href="http://github.com/jduff" rel='me' class='url'>GitHub Profile</a></li>
+              <li class="twitter"><a href="http://twitter.com/johnduff" rel="me" class="url">Twitter Feed</a></li>
+              <li class="linkedin"><a href="http://www.linkedin.com/in/johnduff" rel="me" class="url">LinkedIn Profile</a></li>
+              <li class="reader"><a href="http://www.google.com/reader/shared/17682955537280407457" rel="me" class="url">Reader Feed</a></li>
+              <li class="facebook"><a href="http://www.facebook.com/duff.john" rel="me" class="url">Facebook Profile</a></li>
+          </ul>
         </div>
-        
+      </div>
+      <div class="span9 main offset3">
+        <div class="well">
+          {{ content }}
+        </div>
+      </div>
+
+      <div id="bottom" class="span9 offset3">
+        <div class="well">
+          <a href="/about/">About</a> |
+          <a href="/tags/">Archives</a> |
+          <a href="/atom.xml">feed</a>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
 
-    <div id="bottom">
-	      <a href="/about/">About</a> |
-        <a href="http://jduff.github.com">Blog</a> |
-        <a href="/tags/">Archives</a> |
-				<a href="/resume/">Resume</a> |
-        <a href="http://feeds.feedburner.com/JohnDuffsBlog">RSS</a>
-    </div>
-    
-    <!-- Google Analytics Code -->    
-    <script type="text/javascript">
+  <!-- Google Analytics Code -->
+  <script type="text/javascript">
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-9947336-1']);
-      _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9947336-1']);
+    _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script');
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
-            'http://www') + '.google-analytics.com/ga.js';
-        ga.setAttribute('async', 'true');
-        document.documentElement.firstChild.appendChild(ga);
-      })();
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+          'http://www') + '.google-analytics.com/ga.js';
+      ga.setAttribute('async', 'true');
+      document.documentElement.firstChild.appendChild(ga);
+    })();
 
-    </script>
-    
-    <!-- Twitter Badge Code -->
-    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-    <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/johnduff.json?callback=twitterCallback2&amp;count=5"></script>
-
+  </script>
 </body>
 </html>
 
