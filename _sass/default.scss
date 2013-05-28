@@ -1,7 +1,9 @@
+/*@import "compass/reset";*/
+
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-/*@import "compass/reset";*/
+
 html, body, .container, .row, .main {
   min-height: 100%;
 }
@@ -40,9 +42,11 @@ a {
   border-bottom: 1px solid #ccc;
 }
 
-h1 a, h2 a {
-  text-decoration: none;
-  border-bottom: none;
+h1, h2 {
+  a {
+    text-decoration: none;
+    border-bottom: none;
+  }
 }
 
 .container {
@@ -75,9 +79,10 @@ h1 a, h2 a {
   bottom: 0px;
   right: 0px;
   left: 0px;
-}
-#bottom .well {
-  margin-bottom: 0px;
+
+  .well {
+    margin-bottom: 0px;
+  }
 }
 
 #bottom, .main {
@@ -122,13 +127,13 @@ h1 a, h2 a {
   .main {
     border: none;
     padding-right: 0px;
-    margin-left: 0px;
+    margin-left:0px;
     border-top: solid 4px;
   }
 
   #bottom {
     padding-left: 0px;
     padding-right: 0px;
-    margin-left: 0px;
+    margin-left:0px;
   }
 }
