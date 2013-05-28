@@ -1,2 +1,5 @@
 permalink: pretty
-paginate: 5
+paginate: 10
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'config.rb', 'run']
+
+production_url: http://jduff.github.com
