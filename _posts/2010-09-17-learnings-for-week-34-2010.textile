@@ -20,17 +20,17 @@ Lots of stuff going on this week, more over on the "Rubinauts Blog":http://blog.
 Organization.user_ids
 {% endhighlight %}
 
- * If you're having trouble with the Glassfish Admin not loading it could be it's trying to check for updates over the network. We found some good instructions on <a href='http://http://techmythoughts.blogspot.com/2010/08/glassfish-v3-admin-console-taking-too.html'>how to disable this</a> by editing the glassfish domain.xml and removing some jars. Note that in our setup the xml file was at %GLASSFISH_HOME/glassfish/domains/domain1/config/domain.xml
+ * If you're having trouble with the Glassfish Admin not loading it could be it's trying to check for updates over the network. We found some good instructions on <a href='http://http://techmythoughts.blogspot.com/2010/08/glassfish-v3-admin-console-taking-too.html'>how to disable this</a> by editing the glassfish domain.xml and removing some jars. Note that in our setup the xml file was at {% highlight bash %}%GLASSFISH_HOME/glassfish/domains/domain1/config/domain.xml{% endhighlight %}
 
-# Update the %GLASSFISH_HOME/glassfish/domains/domain1/domain.xml{% highlight xml %}
+# Update the {% highlight bash %}%GLASSFISH_HOME/glassfish/domains/domain1/domain.xml{% endhighlight %}{% highlight xml %}
 <java-config> 
      <jvm-options>-Dcom.sun.enterprise.tools.admingui.NO_NETWORK=true</jvm-options>   
 </java-config> 
 {% endhighlight %}
 # Remove update tool jar (Backup and remove this JAR)
-%GLASSFISH_HOME/glassfish/modules/console-updatecenter-plugin.jar
+{% highlight bash %}%GLASSFISH_HOME/glassfish/modules/console-updatecenter-plugin.jar{% endhighlight %}
 # Delete this dir:
-%GLASSFISH_HOME/glassfish/domains/domain1/osgi-cache%GLASSFISH_HOME/glassfish/domains/domain1/generated
+{% highlight bash %}%GLASSFISH_HOME/glassfish/domains/domain1/osgi-cache%GLASSFISH_HOME/glassfish/domains/domain1/generated{% endhighlight %}
 
 * To follow redirects with curl add the -L option{% highlight bash %}
 curl -L http://example.com
