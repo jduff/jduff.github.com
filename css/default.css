@@ -82,7 +82,7 @@ h1 a, h2 a {
 
 #bottom, .main {
   width: inherit;
-  margin-left: 240px;
+  margin-left: 320px;
 }
 
 .row {
@@ -130,5 +130,9 @@ h1 a, h2 a {
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 0px;
+  }
+
+  #bottom, .main {
+    width: auto;
   }
 }
