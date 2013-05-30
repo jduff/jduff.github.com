@@ -105,6 +105,14 @@ h1, h2 {
   top: 0px;
   bottom: 0px;
   border-right: 4px solid;
+
+  li {
+    list-style: none;
+  }
+
+  p {
+    margin: 10px 0px 20px 25px;
+  }
 }
 
 .well {
@@ -112,11 +120,64 @@ h1, h2 {
   border: none;
 }
 
+#links {
+  /*margin: 0px 0px 0px -20px;*/
+  li {
+    display: inline;
+    padding: 0px 10px;
+  }
+}
+
+#navigation {
+  li {
+    margin: 10px 0px;
+  }
+  a {
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    padding: 5px 13px;
+    border: 5px solid #E6E6E6;
+    color: #E6E6E6;
+    font-weight:bold;
+    font-size:110%;
+    display: inline-block;
+
+    &:hover {
+      border: 5px solid #000;
+      color: #000;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .sidebar.affix {
     position: relative;
     text-align: center;
     border-right: none;
+    width: 100%;
+    margin: auto;
+
+    .well {
+      padding: 0px;
+      margin-left: 20px;
+    }
+
+    #navigation, #links {
+      margin: 0px 0px 0px -20px;
+      li {
+        display: inline;
+        padding: 0px 10px;
+      }
+    }
+
+    #navigation {
+      margin-top: 20px;
+    }
+
+    p {
+      margin-left: 0px;
+    }
   }
 
   body {

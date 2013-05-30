@@ -101,10 +101,43 @@ h1 a, h2 a {
   bottom: 0px;
   border-right: 4px solid;
 }
+.sidebar li {
+  list-style: none;
+}
+.sidebar p {
+  margin: 10px 0px 20px 25px;
+}
 
 .well {
   background-color: transparent;
   border: none;
+}
+
+#links {
+  /*margin: 0px 0px 0px -20px;*/
+}
+#links li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+#navigation li {
+  margin: 10px 0px;
+}
+#navigation a {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  padding: 5px 13px;
+  border: 5px solid #E6E6E6;
+  color: #E6E6E6;
+  font-weight: bold;
+  font-size: 110%;
+  display: inline-block;
+}
+#navigation a:hover {
+  border: 5px solid #000;
+  color: #000;
 }
 
 @media (max-width: 767px) {
@@ -112,6 +145,25 @@ h1 a, h2 a {
     position: relative;
     text-align: center;
     border-right: none;
+    width: 100%;
+    margin: auto;
+  }
+  .sidebar.affix .well {
+    padding: 0px;
+    margin-left: 20px;
+  }
+  .sidebar.affix #navigation, .sidebar.affix #links {
+    margin: 0px 0px 0px -20px;
+  }
+  .sidebar.affix #navigation li, .sidebar.affix #links li {
+    display: inline;
+    padding: 0px 10px;
+  }
+  .sidebar.affix #navigation {
+    margin-top: 20px;
+  }
+  .sidebar.affix p {
+    margin-left: 0px;
   }
 
   body {
