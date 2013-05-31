@@ -128,7 +128,7 @@ h1 a, h2 a {
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
-  padding: 5px 13px;
+  padding: 5px 10px;
   border: 5px solid #E6E6E6;
   color: #E6E6E6;
   font-weight: bold;
@@ -157,10 +157,13 @@ h1 a, h2 a {
   }
   .sidebar.affix #navigation li, .sidebar.affix #links li {
     display: inline;
-    padding: 0px 10px;
+    padding: 0px;
   }
   .sidebar.affix #navigation {
-    margin-top: 20px;
+    margin: 20px auto;
+  }
+  .sidebar.affix #navigation li.archives {
+    display: none;
   }
   .sidebar.affix p {
     margin-left: 0px;
