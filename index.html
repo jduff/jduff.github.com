@@ -1,23 +1,17 @@
 ---
 layout: default
-title: blog, ideas, photos, everything
+title: Home
 page_name: blog
 ---
 
 <div id='index'>
 {% for post in paginator.posts %}
-    <div class="post">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.content }}
+  <div class="post">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.content }}
 
-    <!-- <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="excerpt">
-        {{ post.content | strip_html | truncatewords:100 }} &nbsp;  <a href="{{ post.url }}" class='read-more'>Read more</a>
-    </p> -->
-    <small class="meta">{{ post.date | date:"%B %d, %Y" }} | <a href='{{ post.url }}#disqus_thread'>View Comments</a> 
-      </small>
-      
-    </div>
+    <small class="meta">{{ post.date | date:"%B %d, %Y" }} | <a href='{{ post.url }}#disqus_thread'>View Comments</a></small>
+  </div>
 {% endfor %}
 </div>
 
