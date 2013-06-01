@@ -27,5 +27,3 @@ git diff -a
 * Super cool OS X soft phone "Telephone":http://www.pure-mac.com/downloads/telephonedl.html
 
 * Facebook applications must be created on a Personal Account, they can not be created with a Business Account.
-
-The rest of the development team where I work has started blogging their learnings as well. Mine are there, along with information on rendering partials from a rake task, benchmarking Rails apps with siege, OS X mail server and more. Check it out at "The Rubinauts Blog":http://blog.rubinauts.com/?p=31.

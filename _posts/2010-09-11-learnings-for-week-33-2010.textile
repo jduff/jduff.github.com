@@ -19,5 +19,3 @@ gem 'RedCloth', '~>3.0'
 {% endhighlight %}
 
 * Rails doesn't check authenticity tokens on GET requests and doesn't ever check them in the functional tests. More info on Rails authenticity token <a href="http://stackoverflow.com/questions/941594/understand-rails-authenticity-token">here</a>.
-
-As always be sure to check out the "other Rubinauts learnings":http://blog.rubinauts.com/?p=151. We've got some Asterisk stuff, talking about our builds a little and OS X server so take a look.

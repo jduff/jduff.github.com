@@ -6,7 +6,7 @@ author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
 
-This past week I had learnings all over the place; javascript, rails, oracle, css and probably more that I've already forgotten. The rest of the Rubinauts team had lots of learnings as well so be sure to "check them out":http://blog.rubinauts.com/?p=39.
+This past week I had learnings all over the place; javascript, rails, oracle, css and probably more that I've already forgotten.
 
 * Interesting post by Remy Sharp on "Throttling Javascript Function Calls":http://remysharp.com/2010/07/21/throttling-function-calls/ {% highlight javascript %}
 function throttle(fn, delay) {

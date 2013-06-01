@@ -6,8 +6,6 @@ author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
 
-Lots of stuff going on this week, more over on the "Rubinauts Blog":http://blog.rubinauts.com/?p=155 as well. Check it out.
-
 * In the latest version of X11 (on Snow Leopard at least) there is an option in the preferences to allow clicks to go through windows. This makes applications like Gimp actually usable in OS X since you don't have to click twice anymore (once to activate the window and another time to click the actual tool or menu you wanted)
 
 * The Asterisk background command can take multiple files to play, each joined by '&'

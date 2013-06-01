@@ -6,7 +6,7 @@ author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
 
-Well, I've been slacking again, here's the learnings from a couple weeks ago. You might also want to check out the "learnings from the rest of the Rubinauts":http://blog.rubinauts.com/?p=120. Lots of good stuff in this one.
+Well, I've been slacking again, here's the learnings from a couple weeks ago.
 
 * IE must "haveLayout for opacity":http://joseph.randomnetworks.com/archives/2006/08/16/css-opacity-in-internet-explorer-ie/ (alpha filter) to work. You can use the IE zoom rule to give an element layout if needed:{% highlight css %}
 zoom: 1;

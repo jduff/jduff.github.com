@@ -14,5 +14,3 @@ author_uri: http://twitter.com/johnduff
 * SQLServer compatibility mode doesn't make the server behave exactly what is specified, rather, it pulls in any functionality that may have been deprecated in the later releases (I think)
 
 * "SendGrid":http://sendgrid.com/, "Google Apps":https://www.google.com/a/, "AuthSMTP":http://www.authsmtp.com/ are paid services that can be used for sending email so you don't need to do it through your own server (or if you're on EC2 and can't reliably send mail from your server)
-
-This week we have some stuff about activerecord-jdbc-adapter and sqlserver, options for using rsync and some tips on requiring gems with bundler from the rest of the Rubinauts guys. "Check it out":http://blog.rubinauts.com/?p=57.

@@ -6,7 +6,7 @@ author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
 
-Here's my learnings from a couple weeks ago. You might also want to check out the "learnings from the rest of the Rubinauts":http://blog.rubinauts.com/?p=132. We're talking PostgreSQL, Oracle, JDBC and Rails 3 in this one.
+Here's my learnings from a couple weeks ago.
 
 * "jQAPI":http://www.jqapi.com/ - alternate location for JQuery documentation. Also provides offline versions you can download as "HMTL":http://www.jqapi.com/jqapi-latest.zip or an "Adobe Air application":http://github.com/downloads/erikzaadi/jqapi/jQAPI-1.4.2.air?v=11072010.
 

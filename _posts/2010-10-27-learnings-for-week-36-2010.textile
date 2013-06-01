@@ -6,8 +6,6 @@ author_name: John Duff
 author_uri: http://twitter.com/johnduff
 ---
 
-Finally trying to catch up with the learnings. Also check out what the rest of the team put up a couple weeks ago "here":http://blog.rubinauts.com/?p=174.
-
 * Google provides some modern <a href='http://code.google.com/webfonts'>webfonts</a> that anyone can use through their <a href='http://code.google.com/apis/webfonts/docs/getting_started.html'>font api</a>.
 
 * SQL Authentication can be turned on for SQL Server through the Management Console under the Server Properties. More details can be found <a href='http://kbase.gfi.com/showarticle.asp?id=KBID002804'>here</a>.
