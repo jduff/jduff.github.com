@@ -26,5 +26,5 @@ h3. The rest of the Month
 
 The rest of the month has went by crazy fast and I've already gotten a chance to work on a lot of different things. I've done a little bit of work on "ActiveMerchant":https://github.com/Shopify/active_merchant, added SSL to the "Partners Area":http://www.shopify.com/partners, fixed a few IE and other bugs, some work with invoicing, Google Base and a little bit of work for the "contest we just launched":http://www.shopify.com/contest. A pretty busy month, but that's the way I like it. Oh ya, I'm also working on a "Shopify App":http://www.shopify.com/partners/apps in my Friday afternoon time. It has been great so far and I'm looking forward to every new day of it.
 
-If any of this sounds pretty cool to you "we are hiring":http://jobvite.com/m?37xU3fwl for a number of different positions. If you want to know more just give me a shout or send in your resume.
+If any of this sounds pretty cool to you "we are hiring":http://www.shopify.com/careers for a number of different positions. If you want to know more just give me a shout or send in your resume.
 
