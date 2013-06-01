@@ -12,5 +12,3 @@ author_uri: http://twitter.com/johnduff
 Media outlets and am very interested in what is happening with cloud computing. I'm also dabbling in design (photoshop, illustrator,
 css) a bit more as well as keeping up with what is happening in the
 Ruby community.</p>
-
-<p><u>Five Fast Facts:</u><br />I'm married<br />I was born in 1983<br />I'm not a fan of dogs<br />I enjoy reading<br />I get bored easily</p>
