@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Values, or quirks, of John Duff"
+tags: [jduff, values, management, quirks]
+author_name: John Duff
+author_uri: http://twitter.com/johnduff
+---
+
+p=. !/images/posts/2013-10-06/values.jpg(Values)!
+
+A few months ago I was introduced to this blog post by "Luc Levesque":http://luclevesque.com/ titled "How to help new employees be rockstars, a new approach":http://luclevesque.com/post/15881999207/how-to-help-new-employees-be-rockstars-a-new-approach. In this post Luc talks about his "Blueprint to Luc and his Quirks" which outlines the things that are important to him and some of his particular quirks. Luc then gives this to his new employees and goes over it with them when they start so that they understand a bit more about him and how he works. The idea is that if there are no surprises, all the expectations and potential quirks are put out there straight away, then there will be less questions about how someone new should react or how Luc will react to particular actions.
+
+I thought this was a great idea and a tool that I could make use of for myself at "Shopify":http://shopify.com. This should be considered a constant work in progress, I am constantly changing the way I work and what I take on, so it only makes sense that some of my values and quirks will change along with that.
+
+h3. The Values, or quirks, of John Duff
+
+*Caring*
+I care about Shopify and what we are doing. I jump on things that need to be done, dig into problems and make Shopify better. I'm around when issues come up. I fight for code quality and correct solutions.
+
+*Responsiveness*
+Being responsive allows us to move at incredible speed. I might not get back to your email or question a minute later (often I will), but you will hear something within the day. Making sure people have the information they need is super important to me. I use my phone for email, code review and everything in between so that I can always respond.
+
+*Ownership*
+When I tackle a problem I try to understand every aspect of it. I think about the solution and what it will mean in the long term. There are endless interesting things to do at Shopify, but completing one of them is worth more than starting ten. Have the determination to see things that matter through to completion.
+
+*Growth*
+I am always trying to improve and am constantly pushing myself. I take on as much as I can handle, then I ask for a bit more. By pushing myself and what I am capable of, I am learning and growing - and so is Shopify.
+
+*Passion and Drive*
+I love what I do. Shopify is my startup, it is as important to me as anything I would start on my own. I am invested in our success and the success of everyone on the team.
+
+*Doing it*
+If I see something broken, I fix it. If someone needs help, I help them. I don't complain, I get in and do something about it. I do what I think is right first and ask for permission later.
+
+*Insatiable Curiosity*
+I ask questions about what I am doing if I'm not sure. I am always open to new ideas or solutions. I like to back things up with data or alternatives and question the necessity of features and changes. Every decision is mutable.
+
+I found it a great exercise to even just come up with these values, let alone share them with everyone. Big thanks to "Luc":http://luclevesque.com/ for providing the inspiration for this and "Cam Gregg":https://twitter.com/CamGregg for suggesting I give this a shot.
