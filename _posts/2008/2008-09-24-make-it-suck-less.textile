@@ -1,9 +1,0 @@
----
-layout: post
-title: Make It Suck Less
-tags: [random]
-author_name: John
-author_uri: http://twitter.com/johnduff
----
-
-<p>That&#39;s what I&#39;m asking myself before I do anything these days.&#160; Is what I am doing making it suck less?&#160; Am I making it suck more?&#160; Why am I doing it then?&#160; I&#39;m doing this before I write code or before changing something around the house; before doing anything.</p><p>I&#39;m starting to find that most people, myself included, get caught up in what they&#39;re doing, what they&#39;re trying to achieve, and it distracts them.&#160; Most people think what they&#39;re doing is great, the best, and that they must be doing it right.&#160; If you always think what you&#39;re doing is already the perfect solution, can you really make something great?&#160; If you&#39;re only focused on where you want to be instead of watching the road ahead of you are you going to miss the potholes along the way?</p><p>This is why I assume it sucks.&#160; It must suck, or else why would I be writing this code?&#160; Or why would I be taking that woodchip path out of my backyard?&#160; Because it sucks.&#160; The process we&#39;re using sucks, so I&#39;m writing some code to fix it.&#160; It sucks raking leaves and pulling up half the path at the same time so I&#39;m putting in stepping stones.</p><p>Make it Suck Less.</p><p>Don&#39;t try and take the gold right away, you need to work up to it.&#160; You&#39;ll just hurt yourself reaching for something that you can&#39;t get to yet.&#160; So work up to it, little bits at a time.&#160; Make sure what you&#39;re doing is getting there.&#160; Make sure you&#39;re solving the problem at hand.&#160; Make it suck less to do something.</p>
